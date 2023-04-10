@@ -24,4 +24,5 @@ int main()
     p_arr[1] = { "Россия","Ижевск","Пушкина", 59 , 143 , 953769 };
     print(&p_arr[0]);
     print(&p_arr[1]);
+    delete[] p_arr;
 }
